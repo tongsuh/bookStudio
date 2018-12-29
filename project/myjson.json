@@ -1,41 +1,6 @@
 {
   "xiaoshuo" : "小说，以刻画人物形象为中心，通过完整的故事情节和环境描写来反映社会生活的文学体裁。",
   "sanwen" : "散文是一种抒发作者真情实感、写作方式灵活的记叙类文学体裁。“散文”一词大概出现在北宋太平兴国(976年12月-984年11月)时期。",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
-  "active" : true,
-  "members" : [
-    {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
-      "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
-      ]
-    },
-    {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
-      ]
-    }
-  ]
+  "zhuanji" : "传记，文体名。亦单称传。是一种常见的文学形式。主要记述人物的生平事迹，根据各种书面的、口述的回忆、调查等相关材料，加以选择性的编排、描写与说明而成。",
+  "mingzhu" : "名著就是指具有较高艺术价值和知名度，且包含永恒主题和经典的人物形象，能够经过时间考验经久不衰，被广泛认识以及流传的文字作品。能给人们以警示和深远影响的著作，以及对世人生存环境的感悟。",
 }
