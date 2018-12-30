@@ -5,7 +5,42 @@
   "mingzhu" : "名著就是指具有较高艺术价值和知名度，且包含永恒主题和经典的人物形象，能够经过时间考验经久不衰，被广泛认识以及流传的文字作品。能给人们以警示和深远影响的著作，以及对世人生存环境的感悟。",
   "formed" : 2016,
   "active" : true,
-  "secretBase" : "Super tower"
+  "secretBase" : "Super tower",
+  "members" : [
+    {
+      "name" : "Molecule Man",
+      "age" : 29,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },
+    {
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name" : "Eternal Flame",
+      "age" : 1000000,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    }
+  ]
+}
   
 }
 
