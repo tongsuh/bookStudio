@@ -1,0 +1,205 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #0F0F0F;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+h1, h2, h3, h4, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#line,#line1{
+	float:right;
+	}
+
+.container {
+	width: 1000px;
+	background-color: #FFF;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.div1 {
+	float: left;
+	width: 200px;
+	height: 750px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+
+		
+}
+.logo{
+	padding-bottom::0px;
+}
+ul {
+	padding: 0;
+	margin-top: 0;
+}
+/*ul.nav {
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}*/
+a:link,a:visited {
+	color: #42413C;
+	text-decoration: underline;
+}
+
+ul.nav li/*,ul.nav2 li */{
+	border-bottom: 1px solid #666;
+}
+.nav a,.nav2 a, /**/ul.nav a:visited {
+	padding: 5px 5px 5px 25px;
+	display: block;
+	font-weight: bold;
+	width: 170px;
+	text-decoration: none;
+	background-color: #C6D580;
+	position:relative;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus/*,
+ul.nav2 a:hover, ul.nav2 a:active, ul.nav2 a:focus */
+{
+	border-top-style: inset;
+	background-color: #ADB96E;
+	color: white;
+}/*导航栏点击变化#FFF*/
+
+.content {
+	padding:0;
+	width: 600px;
+	height: 750px;
+	float: left;
+}
+.div2 {
+	float: left;
+	width: 200px;
+	height: 750px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+
+.div3:hover{
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+}
+
+.top{
+	border-top-style: outset;
+	border-top-width: thick;
+
+	}
+
+/*slider*/
+			.wrap {
+				width: 600px;
+				height: 250px;
+				position: relative;
+			}
+			.wrap:hover{
+				border-top-style: outset;
+				border-bottom-style: outset;
+			}
+
+			.list {
+				width: 600px;
+				height: 250px;
+				list-style: none;
+				position: relative;
+				padding-left: 0px;
+			}
+
+			.item {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				color: white;
+				font-size: 50px;
+				opacity: 0;
+				transition: all .8s;
+			}
+
+			.item:nth-child(1) {
+				background-color: black;
+			}
+
+			.item:nth-child(2) {
+				background-color: red;
+			}
+
+			.item:nth-child(3) {
+				background-color: goldenrod;
+			}
+
+			.item:nth-child(4) {
+				background-color: green;
+			}
+
+			.item:nth-child(5) {
+				background-color: pink;
+			}
+
+			.btn {
+				border-style:none;
+				font-size:25px;
+				font-weight:900;
+				color:white;
+				width: 50px;
+				height: 250px;
+				position: absolute;
+				top: 0px;
+				z-index: 100;
+				background-color:transparent;
+			}
+			/*只改变背景透明度，不改文字*/
+			.btn:hover{
+				 background-color:rgba(0,0,0,0.1);
+				/*opacity:0.5;*/
+			}
+
+			#goPre {
+				left: 0px;
+			}
+
+			#goNext {
+				right: 0px;
+			}
+
+			.item.active {
+				opacity: 1;
+				z-index: 10;
+			}
+
+			.pointList {
+				padding-left: 0px;
+				list-style: none;
+				position: absolute;
+				right: 20px;
+				bottom: 10px;
+				z-index: 1000;
+			}
+
+			.point {
+				width: 8px;
+				height: 8px;
+				background-color: rgba(0, 0, 0, 0.4);
+				border-radius: 100%;
+				float: left;
+				margin-right: 14px;
+				border-style: solid;
+				border-width: 2px;
+				border-color: rgba(255, 255, 255, 0.6);
+				cursor: pointer;
+			}
+
+			.point.active {
+				background-color: rgba(255, 255, 255, 0.4);
+			}

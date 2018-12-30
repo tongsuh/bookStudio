@@ -1,0 +1,120 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #0F0F0F;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3,h4, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#line,#line1{
+	float:right;
+	}
+	
+.div3{
+	padding: 5px;
+	width: auto;
+	height: auto;
+	margin: 5px;
+
+}
+.div3:hover{
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+}
+/*.tu:hover{
+	width:90px;
+	height:90px;
+}*/
+.tu
+{
+	float:right;
+	border-style: outset;
+	border-radius: 5px;
+	
+}
+
+.pa{
+    float:left;
+    width:auto;
+}
+
+
+
+.container {
+	border-radius: 4px;
+	width: 1000px;
+	background-color: #FFF;
+	margin: 0 auto;
+	overflow: hidden;
+}/*总容器*/
+
+.div1 {
+	float: left;
+	width: 200px;
+	height: 750px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+
+.content {
+	width: 600px;
+	height: 750px;
+	float: left;
+}/*中间*/
+
+.top{
+	border-top-style: outset;
+	border-top-width: thick;
+
+	}
+
+.div2 {
+	float: left;
+	width: 200px;
+	height: 750px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+
+ul.nav {
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}
+
+a:link,a:visited {
+	color: #42413C;
+	text-decoration: underline;
+}
+
+ul.nav li {
+	border-bottom: 1px solid #666;
+}
+
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 25px;
+	display: block;
+	font-weight: bold;
+	width: 170px;
+	text-decoration: none;
+	background-color: #C6D580;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	border-top-style: inset;
+	background-color: #ADB96E;
+	color: #FFF;
+}

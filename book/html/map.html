@@ -1,0 +1,72 @@
+<!DOCTYPE html >
+<head>
+    <title>地图</title>
+    <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/map.css"/>
+     	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js">    </script>
+	 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js">     </script>
+
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fySK31wXEkRr4S1PrDxzKTviivBi8qPF">
+        </script>
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="div1">
+   <div class="logo">
+      <img src="../pic/20181020231627.png" width="200" height="180"/> </div >
+    <ul class="nav">
+      <li><a href="../html/index.html">主页</a></li>
+      <li><a href="../html/type.html">书籍类别</a></li>
+      <li><a href="../html/favor.html">我喜爱的</a></li>
+      <li><a href="../html/intro.html">作者简介</a></li>
+      <li><a href="../html/opinon.html">作品延展</a></li>
+      <li><a href="../html/map.html">附近</a></li>
+      <li><a href="../html/about.html">关于</a></li>
+    </ul>
+    </div>
+  <div class="content">
+
+    <div class="mid-top">
+
+      <h2>附近<HR style="border:3 double #987cb9" width="88%" id="line" color=black SIZE=3></h2>
+      <h4>&#8195;&#8195;本页面默认是显示成都大学附近的书店，当然，您也可以在下面的搜索框中搜索您自己想搜索的地方.</h4>
+      <HR style="border:1 double #987cb9" width="98%" color=grey SIZE=1>
+
+        <div class = "search">
+          <form id="form1"  width="255">
+          <table width="255" border="0" >
+              <tr>
+                  <td width="80" height="45" font size:"5">
+                      <b>输入框：</b>
+                  </td>
+                  <td width="195" height:"30"><input id="name" name="name" type="text" />
+                </td>
+
+            </tr>
+          </table>
+           </form>
+         <button id="fat-btn" class="btn btn-primary" data-loading-text="搜索中..." onclick="delayShow()" type="button"> 搜索</button>
+         </div>
+
+
+         <h4>温馨提示：此地图可能与部分浏览器不兼容</h4>
+         <h4>如果不显示，可以换个浏览器试试。</h4>
+
+    </div>
+    <div class="map" id="map"></div>
+  </div>
+   <div class="div2">
+    <br>
+    <h4>名句摘录</h4>
+    <p>鸡汤可能让人觉得不可靠，但很多时候它确实有用呢。</p>
+
+   </div>
+
+</div>
+<script src="../js/map.js"></script>
+</body>
+</html>
